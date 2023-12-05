@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 
 import '../controller/sqlite_db.dart';
 
-class bmicalc extends StatefulWidget {
-  const bmicalc({super.key});
+class bmicalculator extends StatefulWidget {
+  const bmicalculator({super.key});
 
   @override
-  State<bmicalc> createState() => _bmicalcState();
+  State<bmicalculator> createState() => _bmicalculatorState();
 }
 
-class _bmicalcState extends State<bmicalc> {
+class _bmicalculatorState extends State<bmicalculator> {
 
   String? selectedGender;
   double BMI = 0.0;
